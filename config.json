@@ -1,0 +1,23 @@
+{
+  "dataset": "glue",
+  "subset": "sst2",
+  "split": "validation",
+  "n_examples": 200,
+  "seed": 42,
+  "models": [
+    "Qwen/Qwen2.5-3B-Instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "prompt_ids": [
+    "P1_DIRECT",
+    "P2_FORMAL",
+    "P3_CONCISE",
+    "P4_ANALYST",
+    "P5_DEFINITION"
+  ],
+  "generation": {
+    "temperature": 0.0,
+    "max_new_tokens": 8,
+    "do_sample": false
+  }
+}
