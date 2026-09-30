@@ -1,0 +1,7 @@
+{
+  "P1_DIRECT": "Classify the sentiment of the following sentence as positive or negative. Output only the label. Sentence: {text}",
+  "P2_FORMAL": "Determine whether the sentiment expressed in the following sentence is positive or negative. Return exactly one label. Sentence: {text}",
+  "P3_CONCISE": "Sentiment? Answer: positive or negative. Sentence: {text}",
+  "P4_ANALYST": "Analyze the sentiment polarity of this sentence. The valid classes are positive and negative. Output the most appropriate class. Sentence: {text}",
+  "P5_DEFINITION": "Positive means favorable sentiment; negative means unfavorable sentiment. Using these definitions, classify the following sentence and output only positive or negative. Sentence: {text}"
+}
